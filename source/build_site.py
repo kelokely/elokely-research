@@ -45,7 +45,7 @@ html = f'''<!doctype html>
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Khaled M. Elokely, PhD | Research</title>
-  <meta name="description" content="Khaled M. Elokely's research at the University of Wyoming: medicinal chemistry, data curation, protein contact networks, molecular kinetics, FragFlow, and KChiro.">
+  <meta name="description" content="Research from Khaled M. Elokely and his team at the University of Wyoming: medicinal chemistry, data curation, protein contact networks, molecular kinetics, FragFlow, and KChiro.">
   <meta name="theme-color" content="#173f36">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="styles.css"><script src="site.js" defer></script>
@@ -60,14 +60,14 @@ html = f'''<!doctype html>
     <div class="hero-copy"><p class="eyebrow"><span class="small-rule"></span> University of Wyoming</p>
     <h1 id="name">Khaled M.<br>Elokely<span class="degree">, PhD</span></h1>
     <h2>From molecular recognition<br>to <em>drug discovery.</em></h2>
-    <p class="hero-intro">I bring computational and medicinal chemistry together to understand how molecules interact with biological targets—and use that understanding to guide the design of bioactive compounds.</p>
-    <a class="primary-link" href="#research">Explore my research <span aria-hidden="true">↓</span></a>
+    <p class="hero-intro">We bring computational and medicinal chemistry together to understand how molecules interact with biological targets—and use that understanding to guide the design of bioactive compounds.</p>
+    <a class="primary-link" href="#research">Explore our research <span aria-hidden="true">↓</span></a>
     <p class="hero-affiliation">Division of Pharmaceutical Sciences<br>School of Pharmacy · College of Health Sciences</p></div>
     <div class="hero-art"><div class="hero-figure-label"><span class="eyebrow">Molecular recognition</span><span class="figure-dot" aria-hidden="true"></span></div>
       {figure_html(hero, 'hero', 0)}
     </div>
   </section>
-  <section class="research-intro page-width" id="research" aria-labelledby="research-title"><div><p class="eyebrow">Research interests</p><h2 id="research-title">Six connected perspectives<br>on molecular discovery.</h2></div><p>Reliable data, protein structure, molecular timing, and stereochemistry each reveal a different part of the drug-discovery problem. My research connects these perspectives through reproducible computational methods and medicinal chemistry.</p></section>
+  <section class="research-intro page-width" id="research" aria-labelledby="research-title"><div><p class="eyebrow">Research interests</p><h2 id="research-title">Six connected perspectives<br>on molecular discovery.</h2></div><p>Reliable data, protein structure, molecular timing, and stereochemistry each reveal a different part of the drug-discovery problem. Our team connects these perspectives through reproducible computational methods and medicinal chemistry.</p></section>
   <nav class="topic-nav" aria-label="Research topics"><div class="page-width">{nav}</div></nav>
   <div class="research-sections page-width">{''.join(sections)}</div>
   <section class="work-section page-width" id="selected-work" aria-labelledby="work-title"><div class="section-heading"><div><p class="eyebrow">Publications & resources</p><h2 id="work-title">Selected work</h2></div><a class="text-link" href="https://orcid.org/0000-0002-2394-021X" target="_blank" rel="noopener noreferrer">ORCID profile <span aria-hidden="true">↗</span></a></div><ul class="work-list">{works}</ul>

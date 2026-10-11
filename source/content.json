@@ -4,7 +4,7 @@
       "id": "data-curation",
       "name": "Data Curation",
       "subtitle": "Reliable evidence begins with a defined dataset.",
-      "body": "My work makes the decisions behind a biomedical dataset explicit: which chemical representations, assays, endpoints, units, and source records belong together. Dataset contracts, provenance, and quality diagnostics help turn heterogeneous pharmacology records into reproducible research assets.",
+      "body": "Our work makes the decisions behind a biomedical dataset explicit: which chemical representations, assays, endpoints, units, and source records belong together. Dataset contracts, provenance, and quality diagnostics help turn heterogeneous pharmacology records into reproducible research assets.",
       "detail": "Our accepted Digital Discovery paper presents a reusable, OECD-anchored curation and benchmarking framework demonstrated for opioid receptors. CURATO-OPIOID makes pharmacological mechanism and assay readout explicit before modeling, with traceable curated data, a versioned ontology, and scaffold-locked external validation.",
       "tags": [
         "Dataset contracts",
@@ -54,7 +54,7 @@
       "id": "contact-networks",
       "name": "Contact Networks",
       "subtitle": "Reading protein structure through its connections.",
-      "body": "A protein is more than a structural overlay or a binding pocket. I study how networks of residue contacts change across molecular states and related proteins, using topology-aware comparisons to locate gained and lost contacts throughout a protein domain.",
+      "body": "A protein is more than a structural overlay or a binding pocket. We study how networks of residue contacts change across molecular states and related proteins, using topology-aware comparisons to locate gained and lost contacts throughout a protein domain.",
       "detail": "Our CDK-family study examines how selective CDK5 inhibitors relate to contact redistribution near the ligand and in the distal C-lobe. These structural comparisons provide a quantitative view of selectivity and a foundation for testable medicinal-chemistry hypotheses.",
       "tags": [
         "Protein contact maps",
@@ -98,7 +98,7 @@
       "id": "protein-timing",
       "name": "Protein Timing",
       "subtitle": "The kinetics clock: defining what a rate measures.",
-      "body": "My kinetics-clock research asks how to obtain reproducible molecular transition measurements and when the available evidence supports a reported rate. State definitions, transition counting, sampling resolution, and uncertainty all contribute to the measurement.",
+      "body": "Our kinetics-clock research asks how to obtain reproducible molecular transition measurements and when the available evidence supports a reported rate. State definitions, transition counting, sampling resolution, and uncertainty all contribute to the measurement.",
       "detail": "In our alanine-dipeptide benchmark, two standard estimators agree closely when given matched states, while two conventional state definitions produce a larger difference on a fast transition. The work motivates publishing state definitions alongside reference rates and preregistering analysis rules before scoring measurements.",
       "tags": [
         "Transition-path measurement",
@@ -140,8 +140,8 @@
       "id": "fragflow",
       "name": "FragFlow",
       "subtitle": "Finding binding opportunities within lipid bilayers.",
-      "body": "FragFlow maps cosolvent enrichment around membrane proteins using a reference that varies with bilayer depth. Accounting for the membrane environment helps distinguish local cavity enrichment from the tendency of a probe to partition into the surrounding lipid.",
-      "detail": "The project examines membrane-embedded sites in the ADP/ATP carrier, C5aR1, and TREK-1. Depth-resolved scoring, explicit reference profiles, and frozen analysis rules make both site detection and its limits inspectable.",
+      "body": "Our FragFlow project maps cosolvent enrichment around membrane proteins using a reference that varies with bilayer depth. Accounting for the membrane environment helps distinguish local cavity enrichment from the tendency of a probe to partition into the surrounding lipid.",
+      "detail": "We examine membrane-embedded sites in the ADP/ATP carrier, C5aR1, and TREK-1. Depth-resolved scoring, explicit reference profiles, and frozen analysis rules make both site detection and its limits inspectable.",
       "tags": [
         "Membrane proteins",
         "Cosolvent mapping",
@@ -188,8 +188,8 @@
       "id": "kchiro",
       "name": "KChiro",
       "subtitle": "Stereochemical assignments with explicit uncertainty.",
-      "body": "KChiro combines conformational ensembles and electronic circular dichroism calculations to support absolute-configuration assignments. Comparisons across computational methods help assess spectral agreement and identify cases where the evidence is insufficient for confirmation.",
-      "detail": "The developing protocol examines continuous spectral agreement, Cotton-effect sign patterns, and method-dependent spectral placement. Abstention is an intended outcome when the criteria for a defensible assignment are not met.",
+      "body": "Our KChiro research combines conformational ensembles and electronic circular dichroism calculations to support absolute-configuration assignments. Comparisons across computational methods help assess spectral agreement and identify cases where the evidence is insufficient for confirmation.",
+      "detail": "Our developing protocol examines continuous spectral agreement, Cotton-effect sign patterns, and method-dependent spectral placement. Abstention is an intended outcome when the criteria for a defensible assignment are not met.",
       "tags": [
         "Absolute configuration",
         "Chiroptical spectroscopy",
@@ -220,7 +220,7 @@
       "id": "medicinal-chemistry",
       "name": "Medicinal Chemistry",
       "subtitle": "Structure-guided CDK5 inhibitor design and synthesis.",
-      "body": "My CDK5 program combines molecular modeling, synthetic medicinal chemistry, and biological evaluation to develop candidates for Alzheimer’s disease research. Kinase contact-network comparisons guide design hypotheses aimed at improving selectivity over related CDKs. Using structure-based design, we have synthesized a library of 46 small molecules across four series: Boc-protected derivatives, free-base derivatives, imines, and amides.",
+      "body": "Our team combines molecular modeling, synthetic medicinal chemistry, and biological evaluation to develop candidates for Alzheimer’s disease research. Kinase contact-network comparisons guide design hypotheses aimed at improving selectivity over related CDKs. Using structure-based design, we have synthesized a library of 46 small molecules across four series: Boc-protected derivatives, free-base derivatives, imines, and amides.",
       "detail": "Our synthetic strategy uses N-alkylation and N-benzylation, palladium-catalyzed C–N coupling, Boc deprotection and free-base preparation, imine formation, and amide coupling to explore chemical diversity. Compounds are characterized using proton and carbon NMR and high-resolution mass spectrometry (HRMS). Ongoing evaluation against the CDK5/p25 complex aims to identify active leads for subsequent optimization; potency and selectivity are still being established.",
       "tags": [
         "CDK5 selectivity",
@@ -244,6 +244,14 @@
         ]
       ],
       "figures": [
+        {
+          "src": "cdk5-synthesis-testing-workflow.svg",
+          "title": "CDK5 synthesis and testing workflow",
+          "short": "Synthesis & testing",
+          "alt": "Our CDK5 workflow: structure-guided design, synthesis of 46 compounds across four series, purification and NMR and HRMS characterization, ongoing CDK5/p25 testing, and future lead selection and optimization.",
+          "caption": "Our workflow connects structure-guided design and a 46-compound library with characterization and ongoing CDK5/p25 evaluation. Testing results will guide lead selection and the next optimization cycle.",
+          "credit": "Our team · CDK5 research workflow schematic (2026)"
+        },
         {
           "src": "cdk5-structural-fingerprint.png",
           "title": "A structural fingerprint for CDK5",
