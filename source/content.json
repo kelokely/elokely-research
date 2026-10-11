@@ -219,17 +219,19 @@
     {
       "id": "medicinal-chemistry",
       "name": "Medicinal Chemistry",
-      "subtitle": "Guiding selective CDK5 inhibitor discovery.",
-      "body": "My medicinal-chemistry research brings molecular modeling, chemical synthesis, and experimental evaluation together to design and optimize bioactive compounds. Structure-based and ligand-based approaches guide modifications aimed at improving potency, selectivity, and molecular recognition.",
-      "detail": "My CDK5 project connects kinase selectivity with protein contact-network organization. Comparisons within CDK5 and against related kinases help identify structural differences and contact-shell features that can guide hypotheses for selective inhibitor design.",
+      "subtitle": "Structure-guided CDK5 inhibitor design and synthesis.",
+      "body": "My CDK5 program combines molecular modeling, synthetic medicinal chemistry, and biological evaluation to develop candidates for Alzheimer’s disease research. Kinase contact-network comparisons guide design hypotheses aimed at improving selectivity over related CDKs. Using structure-based design, we have synthesized a library of 46 small molecules across four series: Boc-protected derivatives, free-base derivatives, imines, and amides.",
+      "detail": "Our synthetic strategy uses N-alkylation and N-benzylation, palladium-catalyzed C–N coupling, Boc deprotection and free-base preparation, imine formation, and amide coupling to explore chemical diversity. Compounds are characterized using proton and carbon NMR and high-resolution mass spectrometry (HRMS). Ongoing evaluation against the CDK5/p25 complex aims to identify active leads for subsequent optimization; potency and selectivity are still being established.",
       "tags": [
         "CDK5 selectivity",
         "Structure-based design",
-        "Lead optimization"
+        "Analogue synthesis",
+        "NMR & HRMS",
+        "CDK5/p25 evaluation"
       ],
       "links": [
         [
-          "CDK5 project paper",
+          "CDK5 structural study",
           "https://doi.org/10.1021/acs.jcim.6c00886"
         ],
         [
@@ -262,7 +264,8 @@
           "source": "https://doi.org/10.1021/acs.jcim.6c00886",
           "license": "https://creativecommons.org/licenses/by/4.0/"
         }
-      ]
+      ],
+      "status": "Biological evaluation ongoing"
     }
   ],
   "works": [
