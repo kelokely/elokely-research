@@ -5,13 +5,17 @@
       "name": "Data Curation",
       "subtitle": "Reliable evidence begins with a defined dataset.",
       "body": "My work makes the decisions behind a biomedical dataset explicit: which chemical representations, assays, endpoints, units, and source records belong together. Dataset contracts, provenance, and quality diagnostics help turn heterogeneous pharmacology records into reproducible research assets.",
-      "detail": "CURATO-OPIOID applies this approach to opioid receptor bioactivity, pharmacology, and assay-readout annotation. The broader program connects measurement lineage with literature evidence and makes ambiguity available for review.",
+      "detail": "Our accepted Digital Discovery paper presents a reusable, OECD-anchored curation and benchmarking framework demonstrated for opioid receptors. CURATO-OPIOID makes pharmacological mechanism and assay readout explicit before modeling, with traceable curated data, a versioned ontology, and scaffold-locked external validation.",
       "tags": [
         "Dataset contracts",
         "Pharmacology semantics",
         "Provenance"
       ],
       "links": [
+        [
+          "Digital Discovery paper (accepted)",
+          "https://doi.org/10.1039/D6DD00392C"
+        ],
         [
           "Dataset-definition paper",
           "https://doi.org/10.1021/acs.jcim.6c00514"
@@ -32,17 +36,17 @@
           "short": "Provenance",
           "alt": "Research schematic linking raw records, source reconciliation, curated rows, trust review, and release assets with literature evidence.",
           "caption": "A research schematic connecting curated measurements to their source records and supporting literature. Each stage preserves the information needed to inspect and reuse the resulting asset.",
-          "credit": "Elokely research program · Data-curation project schematic",
-          "source": "https://github.com/kelokely/CURATO-OPIOID"
+          "credit": "Nael et al. · Digital Discovery (accepted, 2026) · Author research schematic",
+          "source": "https://doi.org/10.1039/D6DD00392C"
         },
         {
           "src": "data-curation.png",
           "title": "From public records to contracted assets",
           "short": "Framework",
           "alt": "Data-curation framework with acquisition, semantic curation, dataset contracts, quality diagnostics, and role-specific reports.",
-          "caption": "The framework integrates source acquisition, chemical and assay semantics, quality diagnostics, and review. The original figure also shows preliminary project benchmarks.",
-          "credit": "Elokely research program · Preliminary research schematic",
-          "source": "https://doi.org/10.1021/acs.jcim.6c00514"
+          "caption": "The framework integrates source acquisition, chemical and assay semantics, dataset contracts, quality diagnostics, and review.",
+          "credit": "Nael et al. · Digital Discovery (accepted, 2026) · Author research schematic",
+          "source": "https://doi.org/10.1039/D6DD00392C"
         }
       ]
     },
@@ -262,6 +266,13 @@
     }
   ],
   "works": [
+    [
+      "Pharmacological Stratification of Public Bioactivity Databases: A Reusable, OECD-Anchored Curation and Benchmarking Framework Demonstrated for Opioid Receptors",
+      "Nael et al.",
+      "Digital Discovery · 2026",
+      "Accepted paper",
+      "https://doi.org/10.1039/D6DD00392C"
+    ],
     [
       "Defining the Data set Defines the QSAR Claim",
       "Nael, Alakonda & Elokely",
