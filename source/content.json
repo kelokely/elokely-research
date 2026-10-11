@@ -1,0 +1,301 @@
+{
+  "topics": [
+    {
+      "id": "data-curation",
+      "name": "Data Curation",
+      "subtitle": "Reliable evidence begins with a defined dataset.",
+      "body": "My work makes the decisions behind a biomedical dataset explicit: which chemical representations, assays, endpoints, units, and source records belong together. Dataset contracts, provenance, and quality diagnostics help turn heterogeneous pharmacology records into reproducible research assets.",
+      "detail": "CURATO-OPIOID applies this approach to opioid receptor bioactivity, pharmacology, and assay-readout annotation. The broader program connects measurement lineage with literature evidence and makes ambiguity available for review.",
+      "tags": [
+        "Dataset contracts",
+        "Pharmacology semantics",
+        "Provenance"
+      ],
+      "links": [
+        [
+          "Dataset-definition paper",
+          "https://doi.org/10.1021/acs.jcim.6c00514"
+        ],
+        [
+          "CURATO-OPIOID data",
+          "https://doi.org/10.5281/zenodo.22760975"
+        ],
+        [
+          "Project code",
+          "https://github.com/kelokely/CURATO-OPIOID"
+        ]
+      ],
+      "figures": [
+        {
+          "src": "data-provenance.png",
+          "title": "Measurement and evidence lineage",
+          "short": "Provenance",
+          "alt": "Research schematic linking raw records, source reconciliation, curated rows, trust review, and release assets with literature evidence.",
+          "caption": "A research schematic connecting curated measurements to their source records and supporting literature. Each stage preserves the information needed to inspect and reuse the resulting asset.",
+          "credit": "Elokely research program · Data-curation project schematic",
+          "source": "https://github.com/kelokely/CURATO-OPIOID"
+        },
+        {
+          "src": "data-curation.png",
+          "title": "From public records to contracted assets",
+          "short": "Framework",
+          "alt": "Data-curation framework with acquisition, semantic curation, dataset contracts, quality diagnostics, and role-specific reports.",
+          "caption": "The framework integrates source acquisition, chemical and assay semantics, quality diagnostics, and review. The original figure also shows preliminary project benchmarks.",
+          "credit": "Elokely research program · Preliminary research schematic",
+          "source": "https://doi.org/10.1021/acs.jcim.6c00514"
+        }
+      ]
+    },
+    {
+      "id": "contact-networks",
+      "name": "Contact Networks",
+      "subtitle": "Reading protein structure through its connections.",
+      "body": "A protein is more than a structural overlay or a binding pocket. I study how networks of residue contacts change across molecular states and related proteins, using topology-aware comparisons to locate gained and lost contacts throughout a protein domain.",
+      "detail": "Our CDK-family study examines how selective CDK5 inhibitors relate to contact redistribution near the ligand and in the distal C-lobe. These structural comparisons provide a quantitative view of selectivity and a foundation for testable medicinal-chemistry hypotheses.",
+      "tags": [
+        "Protein contact maps",
+        "CDK5 selectivity",
+        "Distal structural changes"
+      ],
+      "links": [
+        [
+          "CDK contact-network paper",
+          "https://doi.org/10.1021/acs.jcim.6c00886"
+        ],
+        [
+          "Proteins as Networks",
+          "https://kelokely.github.io/proteins-as-networks/"
+        ]
+      ],
+      "figures": [
+        {
+          "src": "contact-workflow.png",
+          "title": "Contact-network phenotyping",
+          "short": "Workflow",
+          "alt": "CDK5 kinase-domain regions and a workflow comparing contact maps across 30 CDK structures.",
+          "caption": "Kinase-domain annotation connects residue-contact comparisons to region-level patterns across a panel of CDK structures.",
+          "credit": "Nael, Alakonda & Elokely · JCIM (2026), Fig. 2 · CC BY 4.0",
+          "source": "https://doi.org/10.1021/acs.jcim.6c00886",
+          "license": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "src": "cdk5-region-comparison.jpg",
+          "title": "CDK5 topology and family comparison",
+          "short": "Family comparison",
+          "alt": "CDK5 protein ribbon colored by kinase region, with a bar chart comparing contact-network changes within CDK5 and across related kinases.",
+          "caption": "A region map and contact-network comparisons place CDK5 in the context of related kinases, linking domain-level organization with the search for selectivity.",
+          "credit": "Nael, Alakonda & Elokely · JCIM (2026), Fig. 8 · CC BY 4.0",
+          "source": "https://doi.org/10.1021/acs.jcim.6c00886",
+          "license": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "id": "protein-timing",
+      "name": "Protein Timing",
+      "subtitle": "The kinetics clock: defining what a rate measures.",
+      "body": "My kinetics-clock research asks how to obtain reproducible molecular transition measurements and when the available evidence supports a reported rate. State definitions, transition counting, sampling resolution, and uncertainty all contribute to the measurement.",
+      "detail": "In our alanine-dipeptide benchmark, two standard estimators agree closely when given matched states, while two conventional state definitions produce a larger difference on a fast transition. The work motivates publishing state definitions alongside reference rates and preregistering analysis rules before scoring measurements.",
+      "tags": [
+        "Transition-path measurement",
+        "Molecular kinetics",
+        "Reproducibility"
+      ],
+      "links": [
+        [
+          "ChemRxiv preprint",
+          "https://doi.org/10.26434/chemrxiv.15007540/v1"
+        ],
+        [
+          "Zenodo preregistration",
+          "https://doi.org/10.5281/zenodo.21817854"
+        ]
+      ],
+      "figures": [
+        {
+          "src": "protein-timing-landscape.png",
+          "title": "A conformational landscape for the clock",
+          "short": "Energy landscape",
+          "alt": "Alanine-dipeptide Ramachandran free-energy map with core boundaries, based on 39.2 microseconds across 16 simulation replicas.",
+          "caption": "The alanine-dipeptide free-energy landscape used to benchmark conformational transitions. Dashed lines identify the core-state boundaries.",
+          "credit": "Nael, Alakonda & Elokely · ChemRxiv preprint (2026), Fig. 2 · Author figure",
+          "source": "https://doi.org/10.26434/chemrxiv.15007540/v1"
+        },
+        {
+          "src": "protein-timing-rates.png",
+          "title": "State definition and estimator effects",
+          "short": "Reference rates",
+          "alt": "Two-panel comparison of rates from the Hill relation and core-set milestoning under angular-core and distance-difference state definitions.",
+          "caption": "The same trajectories support a comparison of estimator choice and state definition on fast and slow transitions. Rates are interpreted together with the states they describe.",
+          "credit": "Nael, Alakonda & Elokely · ChemRxiv preprint (2026), Fig. 5 · Author figure",
+          "source": "https://doi.org/10.26434/chemrxiv.15007540/v1"
+        }
+      ]
+    },
+    {
+      "id": "fragflow",
+      "name": "FragFlow",
+      "subtitle": "Finding binding opportunities within lipid bilayers.",
+      "body": "FragFlow maps cosolvent enrichment around membrane proteins using a reference that varies with bilayer depth. Accounting for the membrane environment helps distinguish local cavity enrichment from the tendency of a probe to partition into the surrounding lipid.",
+      "detail": "The project examines membrane-embedded sites in the ADP/ATP carrier, C5aR1, and TREK-1. Depth-resolved scoring, explicit reference profiles, and frozen analysis rules make both site detection and its limits inspectable.",
+      "tags": [
+        "Membrane proteins",
+        "Cosolvent mapping",
+        "Cryptic and allosteric sites"
+      ],
+      "links": [
+        [
+          "ChemRxiv preprint",
+          "https://doi.org/10.26434/chemrxiv.15007894/v1"
+        ],
+        [
+          "Zenodo data & inputs",
+          "https://doi.org/10.5281/zenodo.22736366"
+        ],
+        [
+          "FragFlow code",
+          "https://github.com/kelokely/FragFlow"
+        ]
+      ],
+      "figures": [
+        {
+          "src": "fragflow-reference.png",
+          "title": "The membrane-depth reference",
+          "short": "Reference profiles",
+          "alt": "Depth-resolved benzene profiles, a cosolvent transfer-free-energy ladder, and bilayer occupancy compared with geometric baselines.",
+          "caption": "Probe partitioning and reference profiles vary with membrane depth. Individual replicas and probe-specific baselines keep those differences visible.",
+          "credit": "Nael, Alakonda & Elokely · FragFlow, Fig. 4 · Regenerated from released data and figure code · CC BY 4.0",
+          "source": "https://github.com/kelokely/FragFlow",
+          "license": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "src": "fragflow-specificity.png",
+          "title": "Testing the scoring reference",
+          "short": "Specificity",
+          "alt": "Detection-rate curves comparing depth-resolved and bulk-water references across AAC, C5aR1, and TREK-1 voxel populations.",
+          "caption": "Depth-resolved and scalar bulk-water references are compared on identical voxel populations. The curves show detection behavior across thresholds, including sites that do not pass the frozen rule.",
+          "credit": "Nael, Alakonda & Elokely · FragFlow, Fig. 5 · Regenerated from verified released data · CC BY 4.0",
+          "source": "https://github.com/kelokely/FragFlow",
+          "license": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    },
+    {
+      "id": "kchiro",
+      "name": "KChiro",
+      "subtitle": "Stereochemical assignments with explicit uncertainty.",
+      "body": "KChiro combines conformational ensembles and electronic circular dichroism calculations to support absolute-configuration assignments. Comparisons across computational methods help assess spectral agreement and identify cases where the evidence is insufficient for confirmation.",
+      "detail": "The developing protocol examines continuous spectral agreement, Cotton-effect sign patterns, and method-dependent spectral placement. Abstention is an intended outcome when the criteria for a defensible assignment are not met.",
+      "tags": [
+        "Absolute configuration",
+        "Chiroptical spectroscopy",
+        "Conformational ensembles"
+      ],
+      "links": [],
+      "status": "Method development",
+      "figures": [
+        {
+          "src": "kchiro-spectra.png",
+          "title": "Experimental and computed ECD",
+          "short": "Spectral comparison",
+          "alt": "ECD spectra for three KChiro benchmark cases comparing sign-audited experiment with B3LYP, PBE0, and CAM-B3LYP calculations.",
+          "caption": "Representative experimental benchmarks and computed ensembles. Curves are amplitude-normalized for shape comparison; the experimental sign audit is applied and wavelengths are unshifted.",
+          "credit": "KChiro research project · Replotted from the original ensemble CSVs for readability"
+        },
+        {
+          "src": "kchiro-outcomes.png",
+          "title": "Confirmation and abstention",
+          "short": "Evaluation panel",
+          "alt": "KChiro protocol comparison on a seven-case frozen panel, with four confirmed cases and three abstentions under version 1.1.",
+          "caption": "The seven-case frozen panel reports four confirmations and three abstentions under protocol v1.1. These results describe this limited research panel; broader validation remains part of the developing method.",
+          "credit": "KChiro research project · Protocol v1.1 evaluation figure (2026)"
+        }
+      ]
+    },
+    {
+      "id": "medicinal-chemistry",
+      "name": "Medicinal Chemistry",
+      "subtitle": "Guiding selective CDK5 inhibitor discovery.",
+      "body": "My medicinal-chemistry research brings molecular modeling, chemical synthesis, and experimental evaluation together to design and optimize bioactive compounds. Structure-based and ligand-based approaches guide modifications aimed at improving potency, selectivity, and molecular recognition.",
+      "detail": "My CDK5 project connects kinase selectivity with protein contact-network organization. Comparisons within CDK5 and against related kinases help identify structural differences and contact-shell features that can guide hypotheses for selective inhibitor design.",
+      "tags": [
+        "CDK5 selectivity",
+        "Structure-based design",
+        "Lead optimization"
+      ],
+      "links": [
+        [
+          "CDK5 project paper",
+          "https://doi.org/10.1021/acs.jcim.6c00886"
+        ],
+        [
+          "MolScope workflow",
+          "https://doi.org/10.1002/minf.70048"
+        ],
+        [
+          "MolScope code",
+          "https://github.com/kelokely/MolScope"
+        ]
+      ],
+      "figures": [
+        {
+          "src": "cdk5-structural-fingerprint.png",
+          "title": "A structural fingerprint for CDK5",
+          "short": "Structural fingerprint",
+          "alt": "Published comparisons of contact order, packing density, and hydrogen-bond network size across CDK5, CDK2, and CDK1 structures.",
+          "caption": "Contact order, packing density, and hydrogen-bond counts offer complementary views of the kinase structures used in the CDK5 project. These comparisons inform structural hypotheses for inhibitor discovery.",
+          "credit": "Nael, Alakonda & Elokely · JCIM (2026), Fig. 11 · CC BY 4.0",
+          "source": "https://doi.org/10.1021/acs.jcim.6c00886",
+          "license": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        {
+          "src": "cdk5-hub-gradient.png",
+          "title": "Comparing the D144 contact shell",
+          "short": "Contact-shell comparison",
+          "alt": "Changed-contact counts around CDK5 residue D144 across related kinase structures and partner states, showing means and standard deviations.",
+          "caption": "Cross-family contact-shell changes provide a structural comparison independent of the statistical-potential lookup. Values and sample sizes reproduce the published Figure 10 results.",
+          "credit": "Nael, Alakonda & Elokely · JCIM (2026), Fig. 10 · Replotted from published values · CC BY 4.0",
+          "source": "https://doi.org/10.1021/acs.jcim.6c00886",
+          "license": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ]
+    }
+  ],
+  "works": [
+    [
+      "Defining the Data set Defines the QSAR Claim",
+      "Nael, Alakonda & Elokely",
+      "Journal of Chemical Information and Modeling · 2026",
+      "Published paper",
+      "https://doi.org/10.1021/acs.jcim.6c00514"
+    ],
+    [
+      "Contact-Network Phenotyping of the CDK Family",
+      "Nael, Alakonda & Elokely",
+      "Journal of Chemical Information and Modeling · 2026",
+      "Published paper",
+      "https://doi.org/10.1021/acs.jcim.6c00886"
+    ],
+    [
+      "What Limits a Reference Rate: The State Definition, Not the Estimator",
+      "Nael, Alakonda & Elokely",
+      "ChemRxiv · 2026",
+      "Preprint",
+      "https://doi.org/10.26434/chemrxiv.15007540/v1"
+    ],
+    [
+      "FragFlow: depth-resolved cosolvent mapping recovers cryptic and allosteric sites inside lipid bilayers",
+      "Nael, Alakonda & Elokely",
+      "ChemRxiv · 2026",
+      "Preprint",
+      "https://doi.org/10.26434/chemrxiv.15007894/v1"
+    ],
+    [
+      "MolScope: A Transparent Representation-Aware Workflow Toolkit for Reproducible Medicinal-Chemistry Triage",
+      "Khaled M. Elokely",
+      "Molecular Informatics · 2026",
+      "Published paper",
+      "https://doi.org/10.1002/minf.70048"
+    ]
+  ]
+}
