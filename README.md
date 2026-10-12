@@ -4,7 +4,7 @@ Personal research website hosted on GitHub Pages.
 
 ## Edit the website
 
-- Research descriptions, figure captions, source credits, and selected works:
+- The integrative introduction, research descriptions, figure captions, source credits, and selected works:
   edit `source/content.json`, then run `python3 source/build_site.py`.
 - Homepage and affiliation/contact markup: edit `source/build_site.py`, then
   run the same command.
@@ -12,6 +12,10 @@ Personal research website hosted on GitHub Pages.
 - Figure interactions: edit `site.js`.
 - New or replacement figures: add the image to `assets/`, then update its
   entry in `source/content.json`.
+- The generic CDK5 reaction schemes and CertCrest schematic are editable in
+  `source/build_research_figures.py`. Run that script before rebuilding the
+  site when changing their labels or layout. The schemes use generic compound
+  labels and contain no confidential molecular structures.
 
 Commit and push the updated files to `main`. GitHub Pages automatically
 publishes the site from the root of that branch. Keep `.nojekyll` so these

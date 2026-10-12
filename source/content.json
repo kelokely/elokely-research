@@ -138,10 +138,10 @@
     },
     {
       "id": "fragflow",
-      "name": "FragFlow",
-      "subtitle": "Finding binding opportunities within lipid bilayers.",
-      "body": "Our FragFlow project maps cosolvent enrichment around membrane proteins using a reference that varies with bilayer depth. Accounting for the membrane environment helps distinguish local cavity enrichment from the tendency of a probe to partition into the surrounding lipid.",
-      "detail": "We examine membrane-embedded sites in the ADP/ATP carrier, C5aR1, and TREK-1. Depth-resolved scoring, explicit reference profiles, and frozen analysis rules make both site detection and its limits inspectable.",
+      "name": "Binding-Site Discovery",
+      "subtitle": "Finding binding opportunities in their biological context.",
+      "body": "We investigate where small molecules can bind and how protein structure, conformational changes, and the local environment shape those opportunities. Structural analysis and cosolvent mapping help us explore accessible, cryptic, and allosteric sites and develop hypotheses for molecular design.",
+      "detail": "FragFlow is one example of this work. Its depth-resolved reference accounts for probe partitioning within lipid bilayers when mapping membrane proteins. Studies of the ADP/ATP carrier, C5aR1, and TREK-1 connect local enrichment to an explicit environmental baseline and reproducible analysis rules.",
       "tags": [
         "Membrane proteins",
         "Cosolvent mapping",
@@ -186,10 +186,10 @@
     },
     {
       "id": "kchiro",
-      "name": "KChiro",
-      "subtitle": "Stereochemical assignments with explicit uncertainty.",
-      "body": "Our KChiro research combines conformational ensembles and electronic circular dichroism calculations to support absolute-configuration assignments. Comparisons across computational methods help assess spectral agreement and identify cases where the evidence is insufficient for confirmation.",
-      "detail": "Our developing protocol examines continuous spectral agreement, Cotton-effect sign patterns, and method-dependent spectral placement. Abstention is an intended outcome when the criteria for a defensible assignment are not met.",
+      "name": "Stereochemistry",
+      "subtitle": "Connecting three-dimensional molecular identity with recognition.",
+      "body": "We study stereochemistry as a central part of molecular identity and drug discovery. Our work combines conformational analysis, chiroptical spectroscopy, and electronic-structure calculations to support absolute-configuration assignments and assess the evidence behind them.",
+      "detail": "Our KChiro project compares experimental electronic circular dichroism with computed conformational ensembles. Spectral agreement, Cotton-effect sign patterns, and method sensitivity help us identify supported assignments and cases that require additional evidence. The protocol remains under development.",
       "tags": [
         "Absolute configuration",
         "Chiroptical spectroscopy",
@@ -217,11 +217,36 @@
       ]
     },
     {
+      "id": "conformational-search",
+      "name": "Conformational Search",
+      "subtitle": "Exploring molecular flexibility with explicit uncertainty.",
+      "body": "Flexible molecules can adopt multiple shapes, with consequences for molecular recognition and the interpretation of computed properties. We study how to build useful conformational ensembles, compare search strategies, and assess the sampling evidence behind an ensemble used in drug discovery.",
+      "detail": "Our CertCrest project combines independent replicated searches, conformer clustering, energy re-ranking, and statistical assessments of search coverage and ensemble populations. Declared energy windows, computational methods, solvent conditions, and stereochemical assumptions define the scope of each result. The workflow identifies when additional sampling is needed and records the evidence supporting its conclusions.",
+      "tags": [
+        "Conformer ensembles",
+        "Replicated sampling",
+        "Coverage & uncertainty",
+        "Energy re-ranking"
+      ],
+      "links": [],
+      "status": "Method development",
+      "figures": [
+        {
+          "src": "conformational-search-workflow.svg",
+          "title": "Conformational search with explicit uncertainty",
+          "short": "Search & assessment",
+          "alt": "CertCrest concept workflow: define the search scope, repeat independent searches, cluster and re-rank conformers, assess coverage and population uncertainty, and report a bounded result or request further sampling.",
+          "caption": "CertCrest connects replicated conformational sampling to explicit assessments of coverage and population uncertainty. Conclusions are interpreted within the declared search conditions; additional sampling is an actionable outcome.",
+          "credit": "Our team · CertCrest research workflow schematic (2026)"
+        }
+      ]
+    },
+    {
       "id": "medicinal-chemistry",
-      "name": "Medicinal Chemistry",
-      "subtitle": "Structure-guided CDK5 inhibitor design and synthesis.",
-      "body": "Our team combines molecular modeling, synthetic medicinal chemistry, and biological evaluation to develop candidates for Alzheimer’s disease research. Kinase contact-network comparisons guide design hypotheses aimed at improving selectivity over related CDKs. Using structure-based design, we have synthesized a library of 46 small molecules across four series: Boc-protected derivatives, free-base derivatives, imines, and amides.",
-      "detail": "Our synthetic strategy uses N-alkylation and N-benzylation, palladium-catalyzed C–N coupling, Boc deprotection and free-base preparation, imine formation, and amide coupling to explore chemical diversity. Compounds are characterized using proton and carbon NMR and high-resolution mass spectrometry (HRMS). Ongoing evaluation against the CDK5/p25 complex aims to identify active leads for subsequent optimization; potency and selectivity are still being established.",
+      "name": "Molecular Design & Synthesis",
+      "subtitle": "Turning molecular insight into compounds we can test.",
+      "body": "Our team brings structure-guided design and synthetic chemistry together to develop bioactive molecules. In our CDK5 program for Alzheimer’s disease research, kinase contact-network comparisons inform hypotheses for selectivity, while modular synthesis lets us vary substituents and functional groups. We have prepared 46 small molecules across Boc-protected, free-base, imine, and amide series.",
+      "detail": "The synthetic route begins with N-alkylation or N-benzylation using alkyl or benzyl bromides and sodium hydride in DMF. Palladium-catalyzed C–N coupling with Brett-Phos Pd G3 and cesium carbonate builds the protected derivatives, followed by Boc removal and free-base preparation. We diversify amine intermediates through aldehyde condensation to form imines and HATU/DIPEA-mediated coupling with carboxylic acids to form amides.",
       "tags": [
         "CDK5 selectivity",
         "Structure-based design",
@@ -244,6 +269,22 @@
         ]
       ],
       "figures": [
+        {
+          "credit": "Our team · Generic reaction schemes adapted from the CDK5 annual report",
+          "src": "cdk5-generic-assembly.svg",
+          "title": "CDK5 series assembly and deprotection",
+          "short": "Series assembly",
+          "alt": "Generic reaction scheme showing N-substitution, palladium-catalyzed C–N coupling, and Boc deprotection followed by free-base preparation, with named reagents and no molecular structures.",
+          "caption": "N-substitution and palladium-catalyzed C–N coupling build the protected series. Deprotection and free-base preparation provide amine intermediates for further diversification."
+        },
+        {
+          "credit": "Our team · Generic reaction schemes adapted from the CDK5 annual report",
+          "src": "cdk5-generic-diversification.svg",
+          "title": "Diversifying the CDK5 amine intermediates",
+          "short": "Imine & amide routes",
+          "alt": "Two generic reaction schemes: an amine and aromatic aldehyde form imine derivatives with molecular sieves, and an amine and carboxylic acid form amide derivatives using HATU and DIPEA. No molecular structures are shown.",
+          "caption": "Amine intermediates enter complementary synthetic routes: aldehyde condensation generates imines, while activated carboxylic-acid coupling generates amides. These transformations expand the chemical series for testing."
+        },
         {
           "src": "cdk5-synthesis-testing-workflow.svg",
           "title": "CDK5 synthesis and testing workflow",
@@ -273,7 +314,10 @@
           "license": "https://creativecommons.org/licenses/by/4.0/"
         }
       ],
-      "status": "Biological evaluation ongoing"
+      "status": "Biological evaluation ongoing",
+      "additional": [
+        "Purification, proton and carbon NMR, and high-resolution mass spectrometry establish the chemical identity of the compounds. Ongoing CDK5/p25 testing connects these synthetic series to biological evaluation and will guide lead selection and subsequent optimization. Potency and selectivity are still being established."
+      ]
     }
   ],
   "works": [
@@ -319,5 +363,14 @@
       "Published paper",
       "https://doi.org/10.1002/minf.70048"
     ]
-  ]
+  ],
+  "intro": {
+    "hero": "Our team connects computational modeling, chemical synthesis, and experimental evaluation to understand molecular recognition and develop bioactive compounds. We treat data quality, protein behavior, molecular flexibility, and stereochemistry as parts of the same discovery problem, so each calculation and experiment can inform the next design decision.",
+    "title": "An integrative approach to drug discovery.",
+    "paragraphs": [
+      "Drug discovery depends on understanding how a compound’s chemistry, three-dimensional shape, and biological environment work together. Reliable measurements and molecular models help us interpret activity, investigate selectivity, and identify questions that experiments can resolve. Our approach connects these sources of evidence to build better-supported design hypotheses.",
+      "We begin by curating chemical and biological data, examining protein structure and behavior, and exploring molecular conformations and stereochemistry. These insights guide compound design and synthesis. We characterize the resulting molecules and evaluate their biological activity, then use the experimental findings to refine our models and the next set of designs.",
+      "This iterative connection between computation and experiment helps us prioritize informative studies, recognize uncertainty, and make the reasoning behind a discovery program reproducible. Our research develops methods and chemical strategies that can be adapted to different targets and therapeutic questions."
+    ]
+  }
 }
