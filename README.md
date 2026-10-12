@@ -1,40 +1,27 @@
 # Khaled M. Elokely — Research
 
-Personal research website hosted on GitHub Pages.
+The research website has moved to University of Wyoming ARCC GitLab Pages:
 
-## Edit the website
+https://pages.arcc.uwyo.edu/elokely-research/website/
 
-- The integrative introduction, research descriptions, figure captions, source credits, and selected works:
-  edit `source/content.json`, then run `python3 source/build_site.py`.
-- Homepage and affiliation/contact markup: edit `source/build_site.py`, then
-  run the same command.
-- Design and spacing: edit `styles.css`.
-- Figure interactions: edit `site.js`.
-- New or replacement figures: add the image to `assets/`, then update its
-  entry in `source/content.json`.
-- The generic CDK5 reaction schemes and CertCrest schematic are editable in
-  `source/build_research_figures.py`. Run that script before rebuilding the
-  site when changing their labels or layout. The schemes use generic compound
-  labels and contain no confidential molecular structures.
+The editing project is:
 
-Commit and push the updated files to `main`. GitHub Pages automatically
-publishes the site from the root of that branch. Keep `.nojekyll` so these
-static files are served without an extra build step.
+https://gitlab.arcc.uwyo.edu/elokely-research/website
 
-You can also request updates in the original Codex conversation.
+This GitHub repository retains a backup of the research content, figures, and
+source files. Its homepage forwards visitors to the UW website and preserves
+research-section links. Make future website edits in the ARCC GitLab project;
+its Pages pipeline rebuilds and publishes changes committed to the default
+branch.
 
-## Research content and figure credits
+The local ARCC source copy is in `hosting/arcc-gitlab/elokely-research` within
+the Codex workspace. ARCC GitLab browser editing uses UW single sign-on.
+Command-line access requires separately configured GitLab credentials.
 
-The site covers Data Curation, Contact Networks, Protein Timing (the kinetics
-clock), FragFlow, KChiro, and Medicinal Chemistry through the CDK5 project.
-Individual figures carry source credits and, where applicable, license links.
-Replotted research figures are identified in their captions. Preprints and
-methods in development are labeled separately from published papers.
+The website includes Data Curation, Contact Networks, Protein Timing,
+Binding-Site Discovery, Stereochemistry, Conformational Search, and Molecular
+Design & Synthesis. Figures are credited individually. The CDK5 reaction
+schemes contain generic labels and no confidential molecular structures.
 
-The owner requested omission of compound structures, academic position, and
-education history. The hosting repository contains only the website and its
-editable content. No private manuscripts, grant documents, data bundles,
-credentials, or ChatGPT hosting metadata are included.
-
-GitHub Pages for public repositories is available on GitHub Free:
-https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+Only website material is included. Private research reports, manuscripts,
+research data bundles, and credentials are excluded.
